@@ -1,0 +1,1 @@
+// const a = prompt("Enter your name");
