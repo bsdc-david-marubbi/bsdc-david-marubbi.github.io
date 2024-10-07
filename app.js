@@ -1,1 +1,1 @@
-// const a = prompt("Enter your name");
+console.log("Default Applicatin Running")
