@@ -85,7 +85,7 @@ footer {
 }
 
 .footeritem {
-  font-size: 1.7vw;
+  font-size: 20px;
   padding: 15px 5px;
   flex-grow: 0;
 }
@@ -96,11 +96,16 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
+
+
   .footeritem {
     font-size: 14px;
     padding: 5px 10px;
-  
+  color: red;
   }
+
+
+
 }
 
 .services {
