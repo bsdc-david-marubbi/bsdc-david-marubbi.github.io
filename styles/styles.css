@@ -1,22 +1,24 @@
 body {
-  background-image: url("/images/BSDClogo.jpg");
-  background-size:30%;
+  /* background-image: url("/images/BSDClogo.jpg"); */
+  background-size: 30%;
   background-position: right top;
   background-repeat: no-repeat;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   padding: 1vh 2vw;
   margin: 0px;
+  display: flex;
 }
 
 .group-container {
-  width:25%;
+  display: flex;
+  flex-wrap: wrap;
+  width: 25%;
   border: black 2px solid;
 }
 
 .group-container img {
-width: 100%;
+  width: 100%;
 }
-
 
 h1 {
   font-size: 26px;
@@ -27,6 +29,10 @@ h2 {
   padding-left: 3vw;
   font-size: 20px;
   line-height: 20px;
+  flex-grow: 1;
+  background-color: black;
+  padding: 3px;
+  margin: 3px;
 }
 
 a {
@@ -42,7 +48,13 @@ a:hover {
 @media only screen and (max-width: 600px) {
   body {
     background-color: white;
+    display: block;
   }
+
+  .group-container {
+    width: 100%;
+  }
+
   h2 {
     font-size: 15px;
     line-height: 15px;
@@ -59,21 +71,26 @@ a:hover {
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   body {
-    background-color: green;
+    background-color: green; 
   }
+  .group-container {
+    width: 50%;
+  }
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   body {
-    background-color: blue;
-  }
+    background-color: blue;  
+  }  
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   body {
     background-color: orange;
+
   }
 }
 
@@ -82,5 +99,4 @@ a:hover {
   body {
     background-color: pink;
   }
-
 }
