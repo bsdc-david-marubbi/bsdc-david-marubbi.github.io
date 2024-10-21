@@ -1,0 +1,29 @@
+html {
+    border: 2px solid blue;
+    height: 100%;    
+}
+
+body {
+    background-color: green;
+    /* height: 100%;     */
+    /* background-image: url("images/Dragon.png"); */
+    background-size: cover;
+    background-position: center;
+  }
+
+  .container {
+    background-color: blueviolet;
+    border: 2px solid red;
+    display: flex;
+/* flex-wrap: wrap; */
+justify-content: space-between;
+  }
+
+  .items1 {
+    border: 1px solid cyan;
+flex-grow: 1;
+  }
+  .items3 {
+    border: 1px solid pink;
+flex-grow: 3;
+  }
