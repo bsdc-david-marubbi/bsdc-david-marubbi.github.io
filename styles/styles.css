@@ -1,6 +1,8 @@
-html,body {
+html,
+body {
   height: 100%;
   box-sizing: border-box;
+  background-color: white;
 }
 body {
   /* background-image: url("/images/BSDClogo.jpg"); */
@@ -10,41 +12,45 @@ body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   padding: 0px;
   margin: 0px;
-  border: red 5px solid;
+  /* border: red 5px solid; */
   display: flex;
   flex-wrap: wrap;
   box-sizing: border-box;
 }
 
 .group-container {
+  border: red 5px solid;
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   width: 50%;
   box-sizing: border-box;
-  align-content: stretch;
+  align-items: flex-start;
   border: green 2px solid;
-  
 }
 
 .group-container img {
   width: 100%;
   height: min-content;
 }
-
-h1 {
-  font-size: 32px;
-  line-height: 32px;
+.students {
+  border: green 2px solid;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  box-sizing: border-box;
+  flex-grow: 1;
+  align-content: stretch;
 }
 
-h2 {
-  padding-left: 3vw;
-  font-size: 30px;
-  line-height: 30px;
+h1 {
+  font-size: 28px;
   flex-grow: 1;
   background-color: black;
-  padding: 3px;
-  margin: 3px;
+  margin: 0px;
   text-align: center;
+  border: white solid 2px;
+  padding: 0 5px;
 }
 
 a {
@@ -53,13 +59,12 @@ a {
 }
 
 a:hover {
-  color: red;
+  color: blue;
 }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   body {
-    background-color: white;
     display: flex;
   }
 
@@ -67,50 +72,43 @@ a:hover {
     width: 100%;
   }
 
-  h2 {
+  h1 {
     font-size: 15px;
     line-height: 15px;
   }
-  a {
-    color: rgb(4, 69, 248);
-  }
 
   a:focus {
-    color: red;
+    color: blue;
   }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   body {
-    background-color: green; 
+    /* background-color: green;  */
   }
-     .group-container {
+  .group-container {
     width: 50%;
-  } 
-
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   body {
-    background-color: blue;  
+    /* background-color: blue;   */
   }
-
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   body {
-    background-color: orange;
-
+    /* background-color: orange; */
   }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   body {
-    background-color: pink;
+    /* background-color: pink; */
   }
-
 }
