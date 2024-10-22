@@ -48,35 +48,34 @@ body {
   flex-grow: 1;
   align-content: stretch;
   justify-content: stretch;
-  background-color: black;
+  background-color: rgb(88, 20, 38);
 }
 
 .button {
-  font-size: 30px;
-  background-color: black;
+  font-size: 26px;
   margin: 0px;
   flex-grow: 1;
   text-align: center;
-  border: white solid 2px;
-  padding: 0 7px;
+  border: rgb(227, 222, 200) solid 2px;
+  padding: 3px 7px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* align-self: flex-end; */
 }
 
-.ib {
-  /* flex-grow: 1; */
+.buttonText {
+padding-bottom: 2px;
 }
 
 a {
   text-decoration: none;
-  color: white;
+  color: rgb(227, 216, 132);
   flex-grow: 1;
 }
 
 a:hover {
-  color: blue;
+  color: red;
+  text-shadow: 5px 5px 5px black;
 }
 
 /* Extra small devices (phones, 600px and down) */
