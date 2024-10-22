@@ -19,14 +19,13 @@ body {
 }
 
 .group-container {
-  border: red 5px solid;
+  /* border: red 5px solid; */
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   width: 50%;
   box-sizing: border-box;
   align-items: flex-start;
-  border: green 2px solid;
 }
 
 .group-container img {
@@ -34,7 +33,7 @@ body {
   height: min-content;
 }
 .students {
-  border: green 2px solid;
+  /* border: green 2px solid; */
   display: flex;
   flex-wrap: wrap;
   align-items: stretch;
@@ -73,8 +72,8 @@ a:hover {
   }
 
   h1 {
-    font-size: 15px;
-    line-height: 15px;
+    font-size: 24px;
+    line-height: 24px;
   }
 
   a:focus {
