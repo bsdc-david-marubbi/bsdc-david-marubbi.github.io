@@ -38,6 +38,7 @@ body {
 .group-container img {
   width: 100%;
   height: min-content;
+  border: rgb(227, 222, 200) solid 2px;
 }
 .students {
   /* border: green 2px solid; */
@@ -49,6 +50,22 @@ body {
   align-content: stretch;
   justify-content: stretch;
   background-color: rgb(88, 20, 38);
+}
+
+.tlevel {
+  background-color: rgb(91, 141, 193);
+}
+
+.thelads {
+  background-color: rgb(255, 0, 51);
+}
+
+.appdev1 {
+  background-color: rgb(255, 170, 0);
+}
+
+.appdev2 {
+  background-color: rgb(71, 129, 0);
 }
 
 .button {
@@ -64,17 +81,17 @@ body {
 }
 
 .buttonText {
-padding-bottom: 2px;
+  padding-bottom: 2px;
 }
 
 a {
   text-decoration: none;
-  color: rgb(227, 216, 132);
+  color: rgb(17, 17, 17);
   flex-grow: 1;
 }
 
-a:hover {
-  color: red;
+a:hover  {
+  color: rgb(255, 255, 255);
   text-shadow: 5px 5px 5px black;
 }
 
