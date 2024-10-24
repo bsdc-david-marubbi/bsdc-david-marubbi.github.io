@@ -1,0 +1,24 @@
+html {
+    border: solid 2px green;
+    height: 100%;
+    background-image: url("background_thunderboltsecurity.png");
+    background-size: cover;
+    background-position: center;
+}
+
+body {
+    /* background-color: red; */
+border: solid 2px red;
+height: 100%;
+margin: 0px;
+}
+
+h1 {
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    margin: auto;
+    /* border: 2px solid red; */
+    background-color: bisque;
+    padding: 50px;
+}
