@@ -40,6 +40,7 @@ body {
   height: min-content;
   border: rgb(227, 222, 200) solid 2px;
 }
+
 .students {
   /* border: green 2px solid; */
   box-sizing: border-box;
@@ -93,6 +94,19 @@ a {
 a:hover  {
   color: rgb(255, 255, 255);
   text-shadow: 5px 5px 5px black;
+}
+
+
+.other-container {
+  /* border: red 5px solid; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+  box-sizing: border-box;
+  align-items: flex-start;
+  background-color: red;
+  font-size: 100px;
 }
 
 /* Extra small devices (phones, 600px and down) */
