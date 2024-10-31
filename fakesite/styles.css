@@ -14,7 +14,7 @@ a {
   color: white;
 }
 
-#main {
+.main {
   /* background-color: red; */
   height: 100%;
   width:100%;
@@ -37,7 +37,8 @@ a {
   background-position: bottom center;
   background-color: red;
   min-height: 60%;
-
+padding: 20px;
+padding-top: 50px;
 }
 
 h1 {
@@ -61,10 +62,11 @@ h2 {
 }
 
 nav {
-  position: sticky;
-  background-color: rgba(126, 126, 126, 0.486);
+  position: fixed;
+  /* position: absolute; */
+  background-color: rgb(43, 42, 42);
   top: 0;
-  margin-bottom: 20px;
+  width: 100%;
 }
 
 ul {
