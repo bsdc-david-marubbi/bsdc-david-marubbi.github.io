@@ -3,14 +3,14 @@ html {
   color: white;
   padding: 0px;
   margin: 0px;
-  background-color: black;
+  background-color: white;
   height: 100%;
   min-height: 100%;
   box-sizing: border-box;
 }
 
 #main {
-  background-color: red;
+  /* background-color: red; */
   height: 100%;
   width:100%;
   margin: 0 auto;
@@ -22,23 +22,18 @@ html {
 #main {
   width: 500px;
 }
-
-.footeritem {
-    font-size: 14px;
-    padding: 5px 10px;
-    color: red;
-  }
 }
 
 
 .splash {
-  background-image: url("images/background_thunderboltsecurity.png ");
+  background-image: url("images/background_thunderboltsecurity.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom center;
   background-color: red;
-  min-height: 60%;
+  min-height: 50%;
   padding:5px;
+  padding-top:20px;
 }
 
 h1 {
@@ -48,7 +43,7 @@ h1 {
   font-weight: 700;
   font-style: normal;
   margin: 0px;
-  font-size: 52px;
+  font-size: 54px;
   line-height: 60px;
 }
 
@@ -56,7 +51,7 @@ h2 {
   font-family: "Poppins", sans-serif;
   text-align: right;
   font-size: 26px;
-  line-height: 26px;
+  margin: 0;
   padding-right: 10px;
 }
 
@@ -95,25 +90,25 @@ li a:hover {
 
 footer {
   font-family: "Arial Narrow", Arial, Helvetica, sans-serif;
-  justify-content: space-between;
+  justify-content:space-around;
+  align-items: flex-start;
   background-color: black;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap:wrap;
-  left: 0;
-  bottom: 0;
-  width: 100%;
+  min-height: 40%;
+  padding: 20px;
 }
 
 .footeritem {
-  font-size: 20px;
-  padding: 15px 5px;
+  font-size: 24px;
   flex-grow: 0;
+  /* border: solid red 2px; */
 }
 
 .socialmediaicon {
-  width: 40px;
-  padding: 0px 5px;
+  width: 60px;
+  padding: 0px 10px;
 }
 
 
