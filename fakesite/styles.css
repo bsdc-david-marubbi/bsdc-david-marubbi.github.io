@@ -32,7 +32,6 @@ html {
   background-position: bottom center;
   background-color: red;
   min-height: 60%;
-  padding:5px;
 
 }
 
@@ -45,6 +44,7 @@ h1 {
   margin: 0px;
   font-size: 54px;
   line-height: 60px;
+  padding-right: 10px;
 }
 
 h2 {
@@ -52,7 +52,7 @@ h2 {
   text-align: right;
   font-size: 26px;
   margin: 0;
-  padding-right: 10px;
+  padding-right: 16px;
 }
 
 nav {
@@ -92,7 +92,7 @@ li a:hover {
 footer {
   font-family: "Arial Narrow", Arial, Helvetica, sans-serif;
   justify-content:space-around;
-  align-items: flex-start;
+  align-items: stretch;
   background-color: black;
   display: flex;
   flex-direction: column;
@@ -104,15 +104,18 @@ footer {
 .footeritem {
   font-size: 24px;
   flex-grow: 0;
-  /* border: solid red 2px; */
+  border: solid red 2px;
 }
 
 .socialmediaicon {
   width: 60px;
   padding: 0px 10px;
+
 }
 
-
+.socialmedia {
+   text-align: center; 
+}
 
 .services, .contact {
   background-color: red;
