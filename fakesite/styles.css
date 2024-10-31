@@ -15,7 +15,7 @@ a {
 }
 
 .main {
-  /* background-color: red; */
+  /* border: 2px solid red; */
   height: 100%;
   width:100%;
   margin: 0 auto;
@@ -36,7 +36,9 @@ a {
   background-repeat: no-repeat;
   background-position: bottom center;
   background-color: red;
-  min-height: 60%;
+  height: 60%;
+}
+.headings {
 padding: 20px;
 padding-top: 50px;
 }
