@@ -102,7 +102,7 @@ footer {
 }
 
 .footeritem {
-  font-size: 24px;
+  font-size: 20px;
   flex-grow: 0;
   border: solid red 2px;
 }
