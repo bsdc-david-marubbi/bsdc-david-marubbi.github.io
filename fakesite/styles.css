@@ -31,9 +31,9 @@ html {
   background-repeat: no-repeat;
   background-position: bottom center;
   background-color: red;
-  min-height: 50%;
+  min-height: 60%;
   padding:5px;
-  padding-top:20px;
+
 }
 
 h1 {
@@ -59,6 +59,7 @@ nav {
   position: sticky;
   background-color: rgba(126, 126, 126, 0.486);
   top: 0;
+  margin-bottom: 20px;
 }
 
 ul {
@@ -97,7 +98,7 @@ footer {
   flex-direction: column;
   flex-wrap:wrap;
   min-height: 40%;
-  padding: 20px;
+  padding: 0 20px;
 }
 
 .footeritem {
