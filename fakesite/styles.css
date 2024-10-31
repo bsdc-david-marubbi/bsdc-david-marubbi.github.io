@@ -9,6 +9,11 @@ html {
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 #main {
   /* background-color: red; */
   height: 100%;
@@ -104,7 +109,7 @@ footer {
 .footeritem {
   font-size: 20px;
   flex-grow: 0;
-  border: solid red 2px;
+  /* border: solid red 2px; */
 }
 
 .socialmediaicon {
