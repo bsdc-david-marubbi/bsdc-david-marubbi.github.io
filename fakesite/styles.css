@@ -22,12 +22,7 @@ a {
   box-sizing: border-box;
 }
 
-@media only screen and (min-width: 500px) {
 
-.main {
-  width: 500px;
-}
-}
 
 
 .splash {
@@ -137,3 +132,11 @@ footer {
   font-size: 10vw;
   padding-top: 20vw;
 } 
+@media only screen and (min-width: 500px) {
+
+.main, nav {
+  width: 500px;
+}
+
+
+}
