@@ -22,9 +22,6 @@ a {
   box-sizing: border-box;
 }
 
-
-
-
 .splash {
   background-image: url("images/background_thunderboltsecurity.jpg");
   background-size: cover;
@@ -34,7 +31,7 @@ a {
   height: 60%;
 }
 .headings {
-padding: 20px;
+padding: 7px;
 padding-top: 50px;
 }
 
@@ -131,12 +128,12 @@ footer {
   text-align: center;
   font-size: 10vw;
   padding-top: 20vw;
-} 
+}
+
 @media only screen and (min-width: 500px) {
 
 .main, nav {
   width: 500px;
 }
-
 
 }
