@@ -17,7 +17,7 @@ a {
 .main {
   /* border: 2px solid red; */
   height: 100%;
-  width:100%;
+  width: 100%;
   margin: 0 auto;
   box-sizing: border-box;
 }
@@ -31,8 +31,8 @@ a {
   height: 60%;
 }
 .headings {
-padding: 7px;
-padding-top: 50px;
+  padding: 7px;
+  padding-top: 50px;
 }
 
 h1 {
@@ -87,17 +87,18 @@ li a {
 }
 
 li a:hover {
-  background-color: #111;  color: yellow;
+  background-color: #111;
+  color: yellow;
 }
 
 footer {
   font-family: "Arial Narrow", Arial, Helvetica, sans-serif;
-  justify-content:space-around;
+  justify-content: space-around;
   align-items: stretch;
   background-color: black;
   display: flex;
   flex-direction: column;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
   min-height: 40%;
   padding: 0 6px;
 }
@@ -111,14 +112,14 @@ footer {
 .socialmediaicon {
   width: 60px;
   padding: 0px 10px;
-
 }
 
 .socialmedia {
-   text-align: center; 
+  text-align: center;
 }
 
-.services, .contact {
+.services,
+.contact {
   background-color: black;
   min-height: 100%;
   color: yellow;
@@ -136,7 +137,6 @@ footer {
   text-align: center;
 }
 .page {
-
 }
 .product {
   /* border: 2px solid red; */
@@ -146,16 +146,24 @@ footer {
   padding: 0;
   color: white;
   background-color: dimgrey;
+  margin: 0px;
+  font-size: 20px;
 }
 
 img.product {
   border-radius: 0px;
 }
-
-@media only screen and (min-width: 500px) {
-
-.main, nav {
-  width: 500px;
+p {
+  padding: 0px 10px;
+  color: White;
+  text-align: left;
+  font-weight: 500;
+  margin: 0px;
 }
 
+@media only screen and (min-width: 500px) {
+  .main,
+  nav {
+    width: 500px;
+  }
 }
