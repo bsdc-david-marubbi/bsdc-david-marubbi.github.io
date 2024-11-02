@@ -119,7 +119,7 @@ footer {
 }
 
 .services, .contact {
-  background-color: red;
+  background-color: black;
   min-height: 100%;
   color: yellow;
   font-family: "Poppins", sans-serif;
@@ -127,7 +127,20 @@ footer {
   margin: 0px;
   text-align: center;
   font-size: 10vw;
-  padding-top: 20vw;
+  padding: 10px;
+  padding-top: 35px;
+}
+
+.services > h1 {
+  color: yellow;
+}
+
+.product {
+  border: 2px solid red;
+  width: 100%;
+  text-align: center;
+  padding: 0;
+  color: white;
 }
 
 @media only screen and (min-width: 500px) {
