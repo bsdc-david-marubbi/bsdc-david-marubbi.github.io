@@ -193,13 +193,14 @@ footer {
   font-size: 30px;
   width: 100%;
   margin: 0;
-  padding 0;
+  padding: 0;
 }
 
 .contact button {
   background-color: yellow;
   margin: 20px;
   padding: 20px;
+  font-size: 24px;
 }
 
 @media only screen and (min-width: 500px) {
