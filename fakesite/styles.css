@@ -174,7 +174,7 @@ footer {
   width: 100%;
   margin: 0;
   padding: 0;
-  /* border: 1px red solid; */
+  border: 1px red solid;
 }
 
 .contact label {
