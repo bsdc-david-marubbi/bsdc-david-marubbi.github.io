@@ -125,15 +125,17 @@ footer {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   margin: 0px;
+  padding: 0 10px;
   text-align: center;
-  font-size: 10vw;
-  padding: 10px;
-  padding-top: 40px;
+  /* border: 2px solid red; */
 }
 
-.services h1 {
+.services h1,
+.contact h1 {
   color: yellow;
+  padding-top: 40px;
   text-align: center;
+  font-size: 8vw;
 }
 
 .product {
@@ -145,11 +147,12 @@ footer {
   color: white;
   background-color: dimgrey;
   margin: 0px;
-  font-size: 20px;
+  margin-top: 10px;
+  font-size: 18px;
 }
 
 .product h2 {
-  font-size: 24px;
+  font-size: 22px;
 }
 
 .product img {
@@ -161,6 +164,33 @@ footer {
   text-align: left;
   font-weight: 500;
   margin: 0px;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: stretch;
+  width: 100%;
+  /* border: 1px red solid; */
+}
+
+.contact label {
+  width: 100%;
+  text-align: left;
+  padding-top:10px;
+  font-size: 20px;
+  /* border: 1px red solid; */
+}
+
+.contact input {
+  font-size: 30px;
+}
+
+.contact button {
+  background-color: yellow;
+  margin: 20px;
+  padding: 20px;
 }
 
 @media only screen and (min-width: 500px) {
