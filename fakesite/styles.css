@@ -122,26 +122,24 @@ footer {
 .contact {
   background-color: black;
   min-height: 100%;
-  color: yellow;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   margin: 0px;
   text-align: center;
   font-size: 10vw;
   padding: 10px;
-  padding-top: 35px;
+  padding-top: 40px;
 }
 
-.services > h1 {
+.services h1 {
   color: yellow;
   text-align: center;
 }
-.page {
-}
+
 .product {
   /* border: 2px solid red; */
   width: 100%;
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 10px 10px;
   text-align: center;
   padding: 0;
   color: white;
@@ -150,12 +148,16 @@ footer {
   font-size: 20px;
 }
 
-img.product {
-  border-radius: 0px;
+.product h2 {
+  font-size: 24px;
 }
-p {
+
+.product img {
+  width: 100%;
+}
+
+.product p {
   padding: 0px 10px;
-  color: White;
   text-align: left;
   font-weight: 500;
   margin: 0px;
