@@ -37,13 +37,13 @@ for (i = 0; i < products.length; i++) {
 
 function sendMail() {
   var params = {
-    name: document.getElementById("name"),
-    email: document.getElementById("email"),
-    message: document.getElementById("message"),
+    name: document.getElementById("name").value,
+    email: document.getElementById("email").value,
+    message: document.getElementById("message").value,
   };
   const serviceID = "service_q5dbxlt";
   const templateID = "template_b82v9rp";
-
+console.log(params);
   emailjs
     .send(serviceID, templateID, params)
     .then((res) => {
