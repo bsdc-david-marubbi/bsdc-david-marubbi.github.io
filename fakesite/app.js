@@ -34,3 +34,23 @@ for (i = 0; i < products.length; i++) {
 // console.log(products);
 // console.log(services);
 // console.log(newProduct);
+
+function sendMail() {
+  var params = {
+    name: document.getElementById("name"),
+    email: document.getElementById("email"),
+    message: document.getElementById("message"),
+  };
+  const serviceID = "service_q5dbxlt";
+  const templateID = "template_b82v9rp";
+
+  emailjs
+    .send(serviceID, templateID, params)
+    .then((res) => {
+      document.getElementById("name").value = "";
+      document.getElementById("email").value = "";
+      document.getElementById("message").value = "";
+      alert("your message was sent sucessfully");
+    })
+    .catch((err) => console.log(err));
+}
