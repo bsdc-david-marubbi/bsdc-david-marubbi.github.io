@@ -120,6 +120,8 @@ footer {
 
 .socialmedia {
   text-align: center;
+  display: flex;
+  justify-content: space-around;
 }
 
 .services,
@@ -142,8 +144,15 @@ footer {
   font-size: 42px;
 }
 
+.productsContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
 .product {
-  /* border: 2px solid red; */
+  border: 2px solid red;
   width: 100%;
   border-radius: 10px 10px;
   text-align: center;
@@ -206,23 +215,39 @@ footer {
   /* border: 1px red solid; */
 }
 
-.contact footer {
-  font-family: "Arial Narrow", Arial, Helvetica, sans-serif;
-  justify-content: space-between;
-  align-items: stretch;
-  background-color: black;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  height: 240px;
-  text-align: left;
-  padding: 0 6px;
-  /* border: 2px solid green; */
-}
+@media only screen and (min-width: 600px) {
 
-@media only screen and (min-width: 500px) {
-  .main,
-  nav {
-    width: 500px;
+  .splash {
+    height: 90%;
+  }
+  h1 {
+
+    font-size: 82px;
+    line-height: 100px;
+    padding-right: 20px;
+  }
+  
+  h2 {
+    font-size: 32px;
+  }
+
+  .product {
+    width: 48%;
+  }
+
+   footer {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    min-height: 10%;
   }
 }
+
+@media only screen and (min-width: 1000px) {
+
+
+  .product {
+    width: 32%;
+  }
+
+}
+

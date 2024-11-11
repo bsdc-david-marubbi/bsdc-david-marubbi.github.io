@@ -22,7 +22,7 @@ const products = [
   },
 ];
 
-const services = document.getElementById("services");
+const services = document.getElementById("productsContainer");
 
 for (i = 0; i < products.length; i++) {
   const newProduct = document.createElement("div");
