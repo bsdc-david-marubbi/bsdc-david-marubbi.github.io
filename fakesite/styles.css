@@ -9,7 +9,9 @@ html {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -193,12 +195,13 @@ footer {
 .contact label {
   width: 100%;
   text-align: left;
-  padding-top:10px;
+  padding-top: 10px;
   font-size: 20px;
   /* border: 1px red solid; */
 }
 
-.contact input, .contact textarea {
+.contact input,
+.contact textarea {
   font-size: 30px;
   width: 100%;
   margin: 0;
@@ -216,17 +219,15 @@ footer {
 }
 
 @media only screen and (min-width: 600px) {
-
   .splash {
     height: 90%;
   }
   h1 {
-
     font-size: 82px;
     line-height: 100px;
     padding-right: 20px;
   }
-  
+
   h2 {
     font-size: 32px;
   }
@@ -235,7 +236,7 @@ footer {
     width: 48%;
   }
 
-   footer {
+  footer {
     flex-direction: row;
     flex-wrap: nowrap;
     min-height: 10%;
@@ -243,11 +244,12 @@ footer {
 }
 
 @media only screen and (min-width: 1000px) {
-
+  .formContainer {
+    margin: 0 auto ;
+    width: 70%;
+  }
 
   .product {
     width: 32%;
   }
-
 }
-
