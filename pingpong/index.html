@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pinball Scorer</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <style>
+      .winner {
+        color: green;
+        font-weight: bold;
+      }
+      .loser {
+        font-weight: bold;
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Ping Pong Scores Application by David</h1>
+    <div id="container">
+      <div><span id="p1score">0</span> - <span id="p2score">0</span></div>
+    </div>
+    <div>
+      <select id="maxScore" type="number" value="6">
+        <option value="3">3</option>
+        <option value="6">6</option>
+        <option value="10">10</option>
+        <option value="12">12</option>
+        <option value="100">100</option>
+      </select>
+    </div>
+    <div>
+      <button id="p1button">Player 1 +</button>
+      <button id="p2button">Player 2 +</button>
+      <button id="resetbutton">Reset</button>
+    </div>
+  </body>
+
+  <script src="app.js"></script>
+</html>
