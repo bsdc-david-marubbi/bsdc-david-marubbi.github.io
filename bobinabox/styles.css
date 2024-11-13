@@ -7,7 +7,7 @@
 html,
 body {
   height: 100%;
-  border: red 1px solid;
+  /* border: red 1px solid; */
 }
 
 .container {
@@ -19,7 +19,7 @@ body {
   align-items: center;
 }
 
-.rob {
+.box {
   background-color: orange;
   border-radius: 5%;
   text-align: center;
