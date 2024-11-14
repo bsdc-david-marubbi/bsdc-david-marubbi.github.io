@@ -7,3 +7,13 @@
 html, body {
     height:100%;
 }
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+img {
+    display: block;
+}
