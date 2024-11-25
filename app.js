@@ -1,1 +1,1 @@
-console.log("Default Application Running")
+console.log("Default Application Running!")
