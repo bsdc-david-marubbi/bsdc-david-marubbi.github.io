@@ -1,0 +1,22 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    border: 2px red solid;
+}
+
+/* h1 {
+    color: blue;
+} */
+
+.mypara {
+    color: red;
+}
+
+.container {
+    display: flex;
+}

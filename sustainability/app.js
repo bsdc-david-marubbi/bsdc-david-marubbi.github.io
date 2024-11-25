@@ -1,1 +1,0 @@
-console.log("Sustainability is the future!")
