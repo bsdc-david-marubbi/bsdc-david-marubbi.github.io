@@ -2,6 +2,26 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p, button, table {
+  font-size: 2rem;
+}
+
+button {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #dcefe8;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+button:active {
+  background-color: red;
 }
 
 html,
@@ -11,19 +31,21 @@ body {
 
 h1 {
     padding-top: 30px;
+    padding-bottom: 10px;
+    color: green;
+    font-size: 3rem;
 }
 
 body {
-  /* Center the form on the page */
   text-align: center;
 }
 
 form {
   display: inline-block;
-  /* Form outline */
   padding: 1em;
   border: 1px solid #ccc;
   border-radius: 1em;
+  background-color: #04AA6D;
 }
 
 p + p {
@@ -64,17 +86,6 @@ textarea {
   height: 5em;
 }
 
-.button {
-  /* Align buttons with the text fields */
-  padding-left: 90px; /* same size as the label elements */
-}
-
-button {
-  /* This extra margin represent roughly the same space as the space
-       between the labels and their text fields */
-  margin-left: 0.5em;
-}
-
 table {
     border: red solid 2px;
     padding: 5px;
@@ -84,4 +95,8 @@ table {
 th,td {
     border: 2px solid green;
     padding: 3px;
+}
+
+th {
+  background-color: aquamarine;
 }
