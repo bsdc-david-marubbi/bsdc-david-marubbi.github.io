@@ -5,6 +5,11 @@
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+html,
+body {
+  height: 100%;
+}
+
 p, button, table {
   font-size: 2rem;
 }
@@ -22,11 +27,6 @@ button {
 
 button:active {
   background-color: red;
-}
-
-html,
-body {
-  height: 100%;
 }
 
 h1 {
