@@ -7,7 +7,6 @@ myReq.onload = function () {
     const data = JSON.parse(this.responseText);
     console.log(data)
     dadJokeContainer.innerText = data.joke;
-    console.log(data.joke);
 };
 
 myReq.onerror = function (err) {
