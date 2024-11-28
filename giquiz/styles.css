@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* border: red solid 2px; */
+  height: 100%;
+}
+
+h1 {
+  /* border: green solid 2px; */
+  text-align: center;
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 30px;
+}
+
+.btn {
+  width: 30%;
+}
+
+.card-body {
+ flex-wrap: wrap;
+ text-align: center;
+}
+
+.card {
+ /* margin: 10px; */
+}
