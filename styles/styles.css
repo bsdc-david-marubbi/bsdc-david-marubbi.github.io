@@ -6,23 +6,17 @@
 
 html,
 body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   height: 100%;
-  box-sizing: border-box;
   background-color: white;
   scroll-behavior: smooth;
 }
+
 body {
-  /* background-image: url("/images/BSDClogo.jpg"); */
-  background-size: cover;
-  background-position: right top;
-  background-repeat: no-repeat;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  padding: 0px;
-  margin: 0px;
-  /* border: red 5px solid; */
   display: flex;
-  flex-wrap: wrap;
-  box-sizing: border-box;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: stretch;
 }
 
 /* Add a black background color to the top navigation */
@@ -31,16 +25,18 @@ body {
   overflow: hidden;
   width: 100%;
   display: none;
+  padding: 14px 0px;
+  font-size: 15px;
+  flex-grow: 0;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
-  float: left;
+  /* float: left; */
   color: #f2f2f2;
   text-align: center;
   padding: 14px 8px;
   text-decoration: none;
-  font-size: 16px;
 }
 
 /* Change the color of links on hover */
@@ -56,11 +52,18 @@ body {
   color: white;
 }
 
+.container {
+  display: flex;
+  height: inherit;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+
 .group-container {
   /* border: red 5px solid; */
   display: flex;
   flex-direction: column;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   width: 50%;
   box-sizing: border-box;
   align-items: flex-start;
@@ -128,7 +131,7 @@ a:hover {
 }
 
 .other-container {
-  /* border: red 5px solid; */
+  border: red 5px solid;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -190,5 +193,6 @@ a:hover {
   }
   .topnav {
     display: block;
+    /* height: fit-content; */
   }
 }
